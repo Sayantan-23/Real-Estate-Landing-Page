@@ -485,6 +485,7 @@ a {
 
 .footer-container {
   max-width: 1440px;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -492,13 +493,14 @@ a {
   gap: 50px;
   padding-top: 100px;
   padding-bottom: 100px;
+  container-type: inline-size;
 }
 
 .footer-left {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .footer-logo {
@@ -516,7 +518,7 @@ a {
 }
 
 .footer-description span::after {
-  content: '\a';
+  content: "\a";
   display: block;
 }
 
@@ -555,3 +557,8 @@ a {
   color: var(--blue);
 }
 
+@container (max-width: 345px) {
+  .footer-right {
+    gap: 20px;
+  }
+}

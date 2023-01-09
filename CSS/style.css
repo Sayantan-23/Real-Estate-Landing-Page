@@ -33,10 +33,6 @@
     color: #ffffff;
   }
 
-  /* .line {
-        height: 3px;
-    } */
-
   /* Hero Section */
   .header-section {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -73,46 +69,45 @@
   /* Mid Cards */
   .mid-cards {
     margin-top: 150px;
-    padding-bottom: 220px;;
+    padding-bottom: 220px;
   }
 
   @container (min-width: 1200px) {
-    .mid-cards>div:nth-child(1) {
-        position: relative;
-        bottom: 80px;
+    .mid-cards > div:nth-child(1) {
+      position: relative;
+      bottom: 80px;
     }
 
-    .mid-cards>div:nth-child(2) {
-        position: relative;
-        bottom: 40px;
+    .mid-cards > div:nth-child(2) {
+      position: relative;
+      bottom: 40px;
     }
 
-    .mid-cards>div:nth-child(4) {
-        position: relative;
-        top: 80px;
+    .mid-cards > div:nth-child(4) {
+      position: relative;
+      top: 80px;
     }
 
-    .mid-cards>div:nth-child(5) {
-        position: relative;
-        top: 40px;
+    .mid-cards > div:nth-child(5) {
+      position: relative;
+      top: 40px;
     }
 
-    .mid-cards>div:nth-child(7) {
-        position: relative;
-        top: 80px;
+    .mid-cards > div:nth-child(7) {
+      position: relative;
+      top: 80px;
     }
 
-    .mid-cards>div:nth-child(8) {
-        position: relative;
-        top: 120px;
+    .mid-cards > div:nth-child(8) {
+      position: relative;
+      top: 120px;
     }
 
-    .mid-cards>div:nth-child(9) {
-        position: relative;
-        top: 160px;
+    .mid-cards > div:nth-child(9) {
+      position: relative;
+      top: 160px;
     }
   }
-
 
   /* Modern House */
   .modern-house-container {
@@ -144,7 +139,7 @@
   }
 
   .house-description span::after {
-    content: '\a';
+    content: "\a";
     display: block;
   }
 
@@ -169,7 +164,7 @@
     gap: 40px;
   }
 
-   /* Newsletter */
+  /* Newsletter */
   .newsletter {
     padding: 70px 40px;
     gap: 60px;
@@ -179,7 +174,7 @@
     max-width: 900px;
   }
 
-   .newsletter-description {
+  .newsletter-description {
     font-size: 1.2rem;
     color: hsla(0, 5%, 92%, 0.859);
     min-width: 600px;
@@ -218,7 +213,6 @@
     flex-direction: row;
     justify-content: space-around;
     padding-top: 120px;
-    container-type: inline-size;
   }
 
   .footer-left {
@@ -230,11 +224,11 @@
     gap: 30px;
   }
 
-  .footer-description{
+  .footer-description {
     font-size: 1.4rem;
     line-height: 2.2rem;
   }
-  
+
   .footer-right {
     gap: 60px;
   }
@@ -245,7 +239,7 @@
     }
   }
 
-  .footer-list-container{
+  .footer-list-container {
     gap: 45px;
   }
 
@@ -254,9 +248,7 @@
   }
 }
 
-
-
-
+/* Unique House */
 @media only screen and (min-width: 1360px) {
   .unique-house-container {
     flex-direction: row;
